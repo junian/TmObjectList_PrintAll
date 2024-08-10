@@ -49,6 +49,12 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SmartAccessTmLibrary">
+      <HintPath>..\SmartAccessTm.CppSharpGen\bin\Debug\net6.0\SmartAccessTmLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Std">
+      <HintPath>..\SmartAccessTm.CppSharpGen\bin\Debug\net6.0\Std.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
